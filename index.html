@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Jaden Laperriere, web development student in London, Ontario. A personal portfolio built with HTML, CSS, and JavaScript."
+    />
+    <meta name="theme-color" content="#1f4fd8" />
+    <title>Jaden Laperriere | Web development student</title>
+    <link rel="icon" href="assets/monogram.svg?v=2" type="image/svg+xml" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="wordmark" href="#home" aria-label="Jaden Laperriere, home"
+        >jl<span>.</span></a
+      >
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="navigation"
+        aria-label="Menu"
+        hidden
+      >
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="navigation" aria-label="Main navigation">
+        <a href="#work">Work</a><a href="#about">About</a
+        ><a href="#contact">Contact <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+    <main id="main" tabindex="-1">
+      <section class="hero wrap" id="home" aria-labelledby="hero-title">
+        <div>
+          <p class="eyebrow">Jaden Laperriere / London, Ontario</p>
+          <h1 id="hero-title">Learning to build<br /><em>for the web.</em></h1>
+          <p class="intro">
+            I'm Jaden, a web development student. This is my portfolio
+            for the work I'm doing in class.
+          </p>
+          <div class="actions">
+            <a class="button" href="#work"
+              >Explore my work <span aria-hidden="true">↘</span></a
+            ><a class="text-link" href="https://github.com/JC-LU25"
+              >Find me on GitHub <span aria-hidden="true">↗</span></a
+            >
+          </div>
+        </div>
+        <figure class="hero-art">
+          <img
+            src="assets/workspace.svg"
+            fetchpriority="high"
+            width="600"
+            height="650"
+            alt="Illustration of a browser window, a blue desk lamp, and a notebook on a desk"
+          />
+          <figcaption>A little space to build something.</figcaption>
+        </figure>
+        <div class="hero-bottom">
+          <span>HTML / CSS / JavaScript</span
+          ><a href="#work"
+            >Scroll to explore <span aria-hidden="true">↓</span></a
+          >
+        </div>
+      </section>
+      <section class="work section wrap" id="work" aria-labelledby="work-title">
+        <div class="section-heading">
+          <h2 id="work-title">A starting point.</h2>
+          <p>
+            There isn't much here yet:<br />this site and a link to my code.
+          </p>
+        </div>
+        <div class="work-grid">
+          <article class="project reveal">
+            <a
+              class="project-image site-preview"
+              href="#about"
+              aria-label="Read about this portfolio"
+              ><div class="mini-nav" aria-hidden="true">
+                <b>jl.</b><span>Work &nbsp; About &nbsp; Contact</span>
+              </div>
+              <div class="mini-content" aria-hidden="true">
+                <span>JADEN LAPERRIERE</span
+                ><strong>Learning to build<br /><i>for the web.</i></strong>
+                <div class="mini-button"></div>
+              </div>
+              <span class="image-arrow" aria-hidden="true">↗</span></a
+            >
+            <div class="project-meta">
+              <h3>This portfolio</h3>
+              <span>2026</span>
+            </div>
+            <p>
+              One page for my work. Plain HTML, CSS, and JavaScript, no
+              framework or build tools.
+            </p>
+            <div class="tags">
+              <span>Responsive layout</span><span>Vanilla JavaScript</span>
+            </div>
+          </article>
+          <article class="project reveal">
+            <a
+              class="project-image code-preview"
+              href="https://github.com/JC-LU25"
+              aria-label="Visit Jaden's GitHub profile"
+              ><div class="code-top" aria-hidden="true">
+                <span></span><span></span><span></span>
+              </div>
+              <div class="code-lines" aria-hidden="true">
+                <span class="muted">&lt;main&gt;</span
+                ><span>&nbsp; &lt;h1&gt;Hello, web.&lt;/h1&gt;</span
+                ><span>&nbsp; &lt;p&gt;Keep building.&lt;/p&gt;</span
+                ><span class="muted">&lt;/main&gt;</span
+                ><span class="cursor">_</span>
+              </div>
+              <span class="image-arrow" aria-hidden="true">↗</span></a
+            >
+            <div class="project-meta">
+              <h3>My GitHub</h3>
+              <span>Ongoing</span>
+            </div>
+            <p>
+              I keep my code on GitHub. Follow the link if you want
+              to look through the repositories.
+            </p>
+            <div class="tags">
+              <span>Source code</span><span>Work in progress</span>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="about section" id="about" aria-labelledby="about-title">
+        <div class="wrap about-grid">
+          <div>
+            <p class="eyebrow">A bit about me</p>
+            <h2 id="about-title">Still learning.<br />Still building.</h2>
+            <img
+              class="monogram"
+              src="assets/monogram.svg"
+              width="112"
+              height="112"
+              alt="JL monogram"
+              loading="lazy"
+            />
+          </div>
+          <div class="about-copy reveal">
+            <p class="large-copy">
+              I'm Jaden, a web development student in London, Ontario.
+            </p>
+            <p>
+              I'm practising HTML page structure and CSS layouts that work on
+              phones as well as larger screens. The menu and contact form
+              use JavaScript.
+            </p>
+            <p>
+              I'll add more projects here as I finish them.
+            </p>
+            <dl class="learning-list">
+              <div>
+                <dt>HTML</dt>
+                <dd>Page structure, links, and forms</dd>
+              </div>
+              <div>
+                <dt>CSS</dt>
+                <dd>Layouts, typography, and responsive design</dd>
+              </div>
+              <div>
+                <dt>JavaScript</dt>
+                <dd>Events, validation, and browser interactions</dd>
+              </div>
+              <div>
+                <dt>Git & GitHub</dt>
+                <dd>Version control and publishing</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </section>
+      <section
+        class="contact section wrap"
+        id="contact"
+        aria-labelledby="contact-title"
+      >
+        <div class="contact-grid">
+          <div>
+            <p class="eyebrow">Get in touch</p>
+            <h2 id="contact-title">Let's talk<br /><em>about the web.</em></h2>
+            <p>
+              Have some feedback on the site? Write it below and copy the
+              draft. You'll need to share it yourself; this page can't send it.
+            </p>
+            <a class="text-link" href="https://github.com/JC-LU25"
+              >Visit @JC-LU25 <span aria-hidden="true">↗</span></a
+            >
+          </div>
+          <form id="contact-form" class="contact-form" aria-labelledby="contact-title">
+            <label for="name">Your name</label
+            ><input
+              id="name"
+              name="name"
+              aria-describedby="form-note"
+              autocomplete="name"
+              maxlength="100"
+              required
+            /><label for="email">Your email</label
+            ><input
+              id="email"
+              name="email"
+              type="email"
+              autocomplete="email"
+              maxlength="254"
+              required
+            /><label for="message">Your message</label
+            ><textarea
+              id="message"
+              name="message"
+              rows="4"
+              minlength="10"
+              maxlength="3000"
+              required
+            ></textarea>
+            <p class="form-note" id="form-note">
+              This form copies a draft. It does not send or store your message.
+              GitHub does not offer private messages.
+            </p>
+            <button class="button" type="submit" aria-describedby="form-note" disabled>
+              Copy message draft <span aria-hidden="true">↗</span>
+            </button>
+            <p
+              id="form-status"
+              class="form-status"
+              role="status"
+              aria-live="polite"
+              aria-atomic="true"
+            ></p>
+            <label id="draft-label" for="message-draft" hidden
+              >Your draft: select and copy it below</label
+            ><textarea id="message-draft" rows="6" readonly hidden></textarea
+            ><noscript
+              ><p>
+                Enable JavaScript to prepare a draft, or visit my GitHub profile
+                using the link beside this form.
+              </p></noscript
+            >
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer wrap">
+      <a class="wordmark" href="#home" aria-label="Back to top"
+        >jl<span>.</span></a
+      >
+      <p>© <span id="year">2026</span> Jaden Laperriere</p>
+      <a href="#home">Back to top <span aria-hidden="true">↑</span></a>
+    </footer>
+  </body>
+</html>
